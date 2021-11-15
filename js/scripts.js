@@ -106,17 +106,12 @@
 // });
 // console.log(arr2);
 
-const arr = [5,-3, 6,-5, 0,-7, 8, 9];
-let arr2 = arr.filter(function(num) {
-    if (num < 0) {
-        return true;
-    } else {
-        return false;
-    }
-});
-console.log(arr2.length)
-// var arr = [5, -3, 6, -5, 0, -7, 8, 9];
-// function func(elem){return elem < 0};
-// var newArr = arr.filter(func);
-// alert(newArr.length);  
-
+// const arr = [5,-3, 6,-5, 0,-7, 8, 9];
+// let arr2 = arr.filter(function(num) {
+//     if (num < 0) {
+//         return true;
+//     } else {
+//         return false;
+//     }
+// });
+// console.log(arr2.length);
