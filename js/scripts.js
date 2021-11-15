@@ -66,13 +66,13 @@
 // });
 // console.log(arr2);
 
-const arr = [1,-3, 5, 6,-7, 8, 9,-11];
-let arr2 = arr.filter(function(num) {
-    if (num >= 0) {
-        return true;
-    } 
-});
-console.log(arr2);
+// const arr = [1,-3, 5, 6,-7, 8, 9,-11];
+// let arr2 = arr.filter(function(num) {
+//     if (num >= 0) {
+//         return true;
+//     } 
+// });
+// console.log(arr2);
 
 // const arr = [1,-3, 5, 6,-7, 8, 9,-11];
 // let arr2 = arr.filter(function(num) {
