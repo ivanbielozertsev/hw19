@@ -66,22 +66,18 @@
 // });
 // console.log(arr2);
 
-// const arr = [1,-3, 5, 6,-7, 8, 9,-11];
-// let arr2 = arr.filter(function(num) {
-//     if (num >= 0) {
-//         return true;
-//     } else {
-//         return false;
-//     }
-// });
-// console.log(arr2);
+const arr = [1,-3, 5, 6,-7, 8, 9,-11];
+let arr2 = arr.filter(function(num) {
+    if (num >= 0) {
+        return true;
+    } 
+});
+console.log(arr2);
 
 // const arr = [1,-3, 5, 6,-7, 8, 9,-11];
 // let arr2 = arr.filter(function(num) {
 //     if (num % 2 === 0) {
 //         return true;
-//     } else {
-//         return false;
 //     }
 // });
 // console.log(arr2);
@@ -90,8 +86,6 @@
 // let arr2 = arr.filter(function(num) {
 //     if (num.length > 5) {
 //         return true;
-//     } else {
-//         return false;
 //     }
 // });
 // console.log(arr2);
@@ -100,9 +94,7 @@
 // let arr2 = arr.filter(function(num) {
 //     if (Array.isArray(num)) {
 //         return true;
-//     } else {
-//         return false;
-//     }
+//     } 
 // });
 // console.log(arr2);
 
@@ -110,8 +102,6 @@
 // let arr2 = arr.filter(function(num) {
 //     if (num < 0) {
 //         return true;
-//     } else {
-//         return false;
 //     }
 // });
 // console.log(arr2.length);
