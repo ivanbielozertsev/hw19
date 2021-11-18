@@ -52,6 +52,7 @@
 // const arr = [3, 4, 1, 2, 7];
 // console.log(arr.sort());
 
+// TASK 14 Var.1
 // const arr = [5, 6, 7, 8, 9];
 // let sum = 0;
 // arr.forEach(function(num){
@@ -59,6 +60,14 @@
 // });
 // console.log(sum);
 
+// TASK 14 Var.2
+// const arr = [5, 6, 7, 8, 9];
+// const total = arr.reduce(function(sum, current) {
+//     return sum + current
+// });
+// console.log(total);
+
+// TASK 15 Var.1
 // const arr = [5, 6, 7, 8, 9];
 // let arr2 = [];
 // arr.forEach(function(num){
@@ -66,14 +75,30 @@
 // });
 // console.log(arr2);
 
+// TASK 15 Var.2
+// const arr = [5, 6, 7, 8, 9];
+// const degreeArr = arr.map(function(num){
+//     return Math.pow(num, 2)
+// });
+// console.log(degreeArr);
+
+// TASK 16 var.1
 // const arr = [1,-3, 5, 6,-7, 8, 9,-11];
 // let arr2 = arr.filter(function(num) {
-//     if (num >= 0) {
+//     if (num < 0) {
 //         return true;
 //     } 
 // });
 // console.log(arr2);
 
+// TASK 16 var.2
+// const arr = [1,-3, 5, 6,-7, 8, 9,-11];
+// const arr2 = arr.filter(function(num){
+//     return (num < 0)
+// });
+// console.log(arr2);
+
+// TASK 17 var.1
 // const arr = [1,-3, 5, 6,-7, 8, 9,-11];
 // let arr2 = arr.filter(function(num) {
 //     if (num % 2 === 0) {
@@ -82,6 +107,14 @@
 // });
 // console.log(arr2);
 
+// TASK 17 var.2
+// const arr = [1,-3, 5, 6,-7, 8, 9,-11];
+// const arr2 = arr.filter(function(num){
+//     return (num % 2 === 0)
+// });
+// console.log(arr2);
+
+// TASK 18 var.1
 // const arr = ['aaa', 'aaaqqq', 'zzzqq', 'zz', 'qsaa', 'q', 'az'];
 // let arr2 = arr.filter(function(num) {
 //     if (num.length > 5) {
@@ -90,6 +123,14 @@
 // });
 // console.log(arr2);
 
+// TASK 18 var.2
+// const arr = ['aaa', 'aaaqqq', 'zzzqq', 'zz', 'qsaa', 'q', 'az'];
+// const arr2 = arr.filter(function(num) {
+//     return (num.length > 5)
+// });
+// console.log(arr2);
+
+// TASK 19 var.1
 // const arr = [1, 2, [3, 4], 5, [6, 7]];
 // let arr2 = arr.filter(function(num) {
 //     if (Array.isArray(num)) {
@@ -98,10 +139,25 @@
 // });
 // console.log(arr2);
 
+// TASK 19 var.2
+// const arr = [1, 2, [3, 4], 5, [6, 7]];
+// const arr2 = arr.filter(function(num) {
+//     return (Array.isArray(num))
+// }); 
+// console.log(arr2);
+
+// TASK 20 var.1
 // const arr = [5,-3, 6,-5, 0,-7, 8, 9];
 // let arr2 = arr.filter(function(num) {
 //     if (num < 0) {
 //         return true;
 //     }
+// });
+// console.log(arr2.length);
+
+// TASK 20 var.2
+// const arr = [5,-3, 6,-5, 0,-7, 8, 9];
+// const arr2 = arr.filter(function(num){
+//     return (num < 0)
 // });
 // console.log(arr2.length);
